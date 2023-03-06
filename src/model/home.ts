@@ -18,10 +18,11 @@ export class Home {
     idCategory: number;
     @Column()
     image: string;
+    @Column({ default: 0 })
+    count: number;
     @Column()
     idUser: number;
     @Column({default: "drum"})
     status: string;
-
 
 }

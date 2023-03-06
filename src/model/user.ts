@@ -8,8 +8,6 @@ export class User {
     username: string;
     @Column()
     password: string;
-    @Column({ type: "text" })
-    avatar: string;
     @Column({ default: "user" })
     role: string;
 }

@@ -46,6 +46,10 @@ __decorate([
     __metadata("design:type", String)
 ], Home.prototype, "image", void 0);
 __decorate([
+    (0, typeorm_1.Column)({ default: 0 }),
+    __metadata("design:type", Number)
+], Home.prototype, "count", void 0);
+__decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", Number)
 ], Home.prototype, "idUser", void 0);

@@ -7,6 +7,7 @@ export declare class Home {
     bathrooms: number;
     idCategory: number;
     image: string;
+    count: number;
     idUser: number;
     status: string;
 }
